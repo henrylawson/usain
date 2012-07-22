@@ -1,0 +1,37 @@
+{
+	"name": "bolt",
+	"description": "A simple task runner tool",
+	"version": "0.0.1",
+	"author": {
+		"name": "Henry Lawson",
+		"email": "hen3rz@gmail.com"
+	},
+	"dependencies": {
+		"q" : "0.x"
+	},
+	"devDependencies": {
+		"jasmine-node" : "1.x"
+	},
+	"keywords": [
+		"bolt",
+		"runner",
+		"nant",
+		"ant",
+		"build"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/henrylawson/bolt.git"
+	},
+	"main": "index",
+	"engines": {
+		"node": "*"
+	},
+	"_id": "bolt@0.0.1",
+	"optionalDependencies": {},
+	"_engineSupported": true,
+	"_npmVersion": "1.1.21",
+	"_nodeVersion": "v0.6.18",
+	"_defaultsLoaded": true,
+	"_from": "bolt@0.0"
+}

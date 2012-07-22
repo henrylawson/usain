@@ -1,0 +1,4 @@
+var bolt = require("./lib/bolt");
+bolt.task = require("./build/tasks");
+
+bolt.execute(process.argv);
