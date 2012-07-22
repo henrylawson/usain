@@ -1,7 +1,7 @@
 {
 	"name": "usain",
 	"description": "A simple task runner tool",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": {
 		"name": "Henry Lawson",
 		"email": "hen3rz@gmail.com"
@@ -27,7 +27,7 @@
 	"engines": {
 		"node": "*"
 	},
-	"_id": "usain@0.0.1",
+	"_id": "usain@0.0.2",
 	"optionalDependencies": {},
 	"_engineSupported": true,
 	"_npmVersion": "1.1.21",
