@@ -2,13 +2,14 @@
 A simple task runner tool. Named after the best runner in the world, Usain Bolt.
 
 # Getting started
+Using usain is super easy, just follow the steps below.
 ## Install usain
 ```Bash
 npm install usain
 ```
 
 ## Create your tasks module
-This is where you define your tasks. This can live in ./build/tasks.js
+This is where you define your tasks. This can live in `./build/tasks.js`
 ```JavaScript
 var spawn = require('child_process').spawn;
 var path = require('path');
@@ -25,7 +26,7 @@ this.default = function() { // <== Executed when no arguments provided to runner
 ```
 
 ## Create your runner
-This is where you create your runner. This guy can live in ./usain
+This is where you create your runner. This guy can live in `./usain`
 ```JavaScript
 var bolt = require("./lib/usain");
 bolt.tasks = require("./build/tasks"); // <== This is the module with your tasks
