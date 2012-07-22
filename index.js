@@ -1,1 +1,1 @@
-module.exports = require('./lib/bolt');
+module.exports = require('./lib/usain');
