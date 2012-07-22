@@ -1,6 +1,6 @@
 {
 	"name": "usain",
-	"description": "A simple task runner tool",
+	"description": "A simple task runner tool. Named after the best runner in the world, Usain Bolt.",
 	"version": "0.0.2",
 	"author": {
 		"name": "Henry Lawson",
