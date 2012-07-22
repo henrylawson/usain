@@ -2,8 +2,6 @@
 A simple task runner tool. Named after the best runner in the world, Usain Bolt.
 
 # Getting started
-Simply create your tasks then your executable JavaScript runner.
-
 ## Install usain
 ```Bash
 npm install usain
