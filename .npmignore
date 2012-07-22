@@ -1,0 +1,6 @@
+.git*
+build/
+node_modules/
+specs/
+usain
+.DS_Store

@@ -1,4 +1,4 @@
-var bolt = require("../lib/bolt");
+var bolt = require("../lib/usain");
 
 describe("Bolt", function() {
 	describe("captureOutput", function() {

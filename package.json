@@ -1,5 +1,5 @@
 {
-	"name": "bolt",
+	"name": "usain",
 	"description": "A simple task runner tool",
 	"version": "0.0.1",
 	"author": {
@@ -13,7 +13,7 @@
 		"jasmine-node" : "1.x"
 	},
 	"keywords": [
-		"bolt",
+		"usain",
 		"runner",
 		"nant",
 		"ant",
@@ -21,17 +21,17 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/henrylawson/bolt.git"
+		"url": "git://github.com/henrylawson/usain.git"
 	},
 	"main": "index",
 	"engines": {
 		"node": "*"
 	},
-	"_id": "bolt@0.0.1",
+	"_id": "usain@0.0.1",
 	"optionalDependencies": {},
 	"_engineSupported": true,
 	"_npmVersion": "1.1.21",
 	"_nodeVersion": "v0.6.18",
 	"_defaultsLoaded": true,
-	"_from": "bolt@0.0"
+	"_from": "usain@0.0"
 }
