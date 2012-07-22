@@ -55,37 +55,27 @@ describe("Bolt", function() {
 			expect(process.stdout.write.mostRecentCall.args[0]).toContain('exited with: ' + exitCode);
 			expect(process.stdout.write.mostRecentCall.args[0]).toContain(taskName);
 		});
-
-		it("should resolve promise when spawned process exits", function() {
-			var promiseResolvedSpy = jasmine.createSpy("Promise resolved");
-			bolt.captureOutput(taskName, spawnedProcess)
-				.then(promiseResolvedSpy());
-
-			spawnedProcess.on.mostRecentCall.args[1](0);
-
-			expect(promiseResolvedSpy).toHaveBeenCalled();
-		});
 	});
 
 	describe("execute", function() {
 		it("should execute default when no arguments provided", function() {
 			var args = ["temp", "temp"];
-			bolt.task.default = jasmine.createSpy("Default task");
+			bolt.tasks.default = jasmine.createSpy("Default task");
 
 			bolt.execute(args);
 
-			expect(bolt.task.default).toHaveBeenCalled();
+			expect(bolt.tasks.default).toHaveBeenCalled();
 		});
 
 		it("should execute the tasks provided by the command line", function() {
 			var args = ["temp", "temp", "task1", "task2"];
-			bolt.task.task1 = jasmine.createSpy("Task 1");
-			bolt.task.task2 = jasmine.createSpy("Task 2");
+			bolt.tasks.task1 = jasmine.createSpy("Task 1");
+			bolt.tasks.task2 = jasmine.createSpy("Task 2");
 
 			bolt.execute(args);
 
-			expect(bolt.task.task1).toHaveBeenCalled();
-			expect(bolt.task.task2).toHaveBeenCalled();
+			expect(bolt.tasks.task1).toHaveBeenCalled();
+			expect(bolt.tasks.task2).toHaveBeenCalled();
 		});
 	});
 });

@@ -9,4 +9,4 @@ this.tests = function() {
 };
 this.default = function() {
 	return this.tests();
-}
+};
